@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Zept | Scheduling Excel Download</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #000;
+            color: #fff;
+        }
+        .navbar {
+            width: 100%;
+            background-color: #111;
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .navbar img {
+            max-height: 50px;
+            margin-left: 20px;
+        }
+        .navbar a {
+            color: #EEFF25;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .navbar a:hover {
+            color: #ddd;
+        }
+        .container {
+            text-align: center;
+            padding: 80px 20px 20px; /* Added padding for fixed navbar */
+            background-color: #222;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+            border-radius: 8px;
+            max-width: 800px;
+            margin: 20px;
+        }
+        h1 {
+            color: #EEFF25;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            color: #ddd;
+        }
+        ul {
+            text-align: left;
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        ul li {
+            font-size: 18px;
+            color: #ddd;
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        ul li::before {
+            content: '•';
+            color: #EEFF25;
+            position: absolute;
+            left: 0;
+        }
+        .download-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            color: #000;
+            background-color: #EEFF25;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 20px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .download-button:hover {
+            background-color: #d4ac0d;
+            color: #fff;
+        }
+        .images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .images img {
+            width: 100%;
+            max-width: 350px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+        }
+        .navbar .brand {
+            font-size: 50px; /* Increase font size for "Data Zept" */
+            color: #EEFF25; /* Yellow color */
+            text-align: center;
+            flex-grow: 1;
+            margin: 0 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#"><img src="logo.png" alt="Data Zept"></a>
+        <div class="brand">DATA ZEPT</div>
+    </div>
+    <div class="container">
+        <h1>Robust Sales Scheduling Excel Template</h1>
+        <p>Optimize your sales pipeline with this powerful template. <br><br>This tool is designed to simplify your sales scheduling, enhance your lead nurturing, and support informed decision-making on outreach timing.</p>
+        <p>Key Features:</p>
+        <ul>
+            <li>Option to include or exclude weekends in scheduling patterns</li>
+            <li>Mass apply, a reachout schedule to all items, or individually change schedules, with a default to the Fibonacci sequence</li>
+            <li>Set deadlines to align with promotional periods or event dates</li>
+        </ul>
+        <a class="download-button" href="https://drive.google.com/uc?export=download&id=10c1STWswnMpGKuTmmbq1q85ZmLNnMvpV" target="_blank">Download Excel Template</a>
+    </div>
+</body>
+</html>
